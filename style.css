@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo&display=swap');
+
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  font-family: sans-serif;
+  background-color: black;
+}
+
+/*--- Navbar ---*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .2rem;
+  font-family: 'Archivo', sans-serif;
+}
+.custom-bg {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand img {
+  height: 3rem;
+}
+
+.navbar-nav li {
+  padding-right: .7rem;
+  font-size: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #3489eb;
+  padding-top: .8rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0c2fcc;
+}
+
+
+
+/*--- Landing Page ---*/
+.home-inner {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(img/wallpaper.jpg);
+}
+
+.caption {
+  width:100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: #3489eb;
+  text-transform: uppercase;
+}
+.caption h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .9rem darkblue;
+  font-family: 'Archivo', sans-serif;
+}
+.caption h3 {
+  font-size: 1.5rem;
+  text-shadow: .1rem .1rem .5rem darkblue;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  font-family: 'Archivo', sans-serif;
+}
+.btn-lg {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  font-family: 'Archivo', sans-serif;
+  color: #3489eb;
+  border-color: #3489eb;
+}
+
+
+/*--- About Page ---*/
+#NYU {
+  color: #8742f5;
+}
+#About {
+  background-color: black;
+}
+#About h1 {
+  font-size: 4rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #3489eb;
+  font-family: 'Archivo', sans-serif;
+}
+
+#About p {
+  font-size: 2rem;
+  font-family: 'Archivo', sans-serif;
+  color: #b3aaaa;
+  padding-bottom: 2rem;
+}
+
+#spacing {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+#spacing a {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+/*--- Projects Page ---*/
+
+.jumbotron {
+  background-color: #9c9c9c;
+}
+.narrow {
+  width: 60%;
+  margin: 1.5rem auto;
+}
+
+#Projects h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: 'Archivo', sans-serif;
+}
+.project {
+  padding-top: 2rem;
+}
+
+.project h3 {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  font-size: 2rem;
+  font-family: 'Archivo', sans-serif;
+}
+
+.project p {
+  font-size: 1.3rem;
+  font-family: 'Archivo', sans-serif;
+}
+#morespacing {
+  padding-top: 7rem;
+}
+
+/*--- Contact Page ---*/
+#Contact p {
+  padding-top: 2rem;
+  font-size: 1.3rem;
+  font-family: 'Archivo', sans-serif;
+}
+hr {
+  display: block;
+  margin-before: 0.5em;
+  margin-after: 0.5em;
+  margin-start: auto;
+  margin-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #3489eb;
+}
+
+#Footer {
+  padding-bottom: 1rem;
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
